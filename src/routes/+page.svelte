@@ -5,7 +5,7 @@
 <div class="centro">
     <h1>Ovoventuras de Ovaldo</h1>
     <h2>A FAZENDA</h2>
-    <a href="/teste">INICIAR</a>
+    <a href="/abertura">INICIAR</a>
 </div>
 
 

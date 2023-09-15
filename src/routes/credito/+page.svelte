@@ -3,7 +3,7 @@
     import ovo from '../../assets/ovo.png'
     import cachorro from '../../assets/cachorro.png'
     import fazendeiro from '../../assets/fazendeiro.png'
-    import fundo from '../../assets/fundo.png'
+    import fundo from '../../assets/fundoL.png'
 </script>
 <img class="fundo" src={celeiro} alt="celeiro">
 <div class="cabecalho">
@@ -37,3 +37,7 @@
     <a href="https://www.ufrgs.br/psicoeduc/behaviorismo/maquina-de-ensinar-de-skinner-1/">https://www.ufrgs.br/psicoeduc/behaviorismo/maquina-de-ensinar-de-skinner-1/</a>
     <a href="https://ctd-smd.wixsite.com/cognosis2023-2/waldenii">https://ctd-smd.wixsite.com/cognosis2023-2/waldenii</a>
 </div>
+
+<style>
+
+</style>

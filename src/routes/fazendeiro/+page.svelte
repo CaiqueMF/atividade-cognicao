@@ -5,7 +5,6 @@
     let passado = 0
     let tamanhoOvo = 1.3
     let tamanhoFazendeiro = 1
-    let texto
     function trocar(){
         if(atual==-2 || atual==-1){
             atual = passado+1

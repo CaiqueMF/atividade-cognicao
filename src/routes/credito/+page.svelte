@@ -18,7 +18,6 @@
                 <ul>
                     <h1>Equipe: OVO!</h1>
                     <li> Caique França (554935)</li>
-                    <li> David Silva (555735)</li>
                     <li> Márcio Freires (554069)</li>
                     <li> Milena Costa(553713)</li>
                     <li> Rafaely Sombra (552241)</li>

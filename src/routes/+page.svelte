@@ -1,7 +1,7 @@
 <div class="tela">
     <div class="cabecalho">
         <h2>OVO!</h2>
-        <a href="/credito">creditos</a>
+        <a href="/credito">Créditos</a>
     </div>
     <div class="centro">
         <h1>Ovoventuras de Ovaldo</h1>
@@ -14,6 +14,7 @@
 
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oi&family=Rosarivo&display=swap');
     * {
         margin: 0px;
     }
@@ -22,6 +23,7 @@
         height: 870px;
     }
     .cabecalho{
+
         height: 88px;
         position: relative;
         display: flex;
@@ -32,6 +34,7 @@
         align-items: center;
     }
     .cabecalho a{
+        font-family: 'Rosarivo', serif;
         position: absolute;
         text-decoration: none;
         font-size: 20px;
@@ -40,16 +43,17 @@
         right: 20px;
     }
     .cabecalho h2 {
-        font-size: 40px;
+        font-family: 'Oi', cursive;
+        font-size: 20px;
     }
     .centro {
-        background-color: #F5F5F5;
+        background: url(../assets/celeiro.png);
         height: 782px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 40px;
+        font-family: 'Rosarivo', serif;
     }
     .centro h1{
         color: #C0410C;

@@ -9,7 +9,7 @@
     <img class="fundo" src={celeiro} alt="celeiro">
     <div class="dentro">
         <div class="cabecalho">
-            <a href="/">voltar</a>
+            <a href="/">Voltar</a>
             <h2>OVO!</h2>
         </div>
         <div class="centro">
@@ -45,6 +45,7 @@
     </div>
 </div>
 <style>
+     @import url('https://fonts.googleapis.com/css2?family=Oi&family=Rosarivo&display=swap');
     .biblio {
         display: flex;
         flex-direction: column;
@@ -74,8 +75,9 @@
         top: 0px;
     }
     .cabecalho{
+ 
+        font-size: 16px;
         height: 88px;
-        
         position: relative;
         display: flex;
         background-color: #FCB72C;
@@ -85,6 +87,7 @@
         align-items: center;
     }
     .cabecalho a{
+        font-family: 'Rosarivo', serif;
         position: absolute;
         text-decoration: none;
         font-size: 20px;
@@ -93,7 +96,8 @@
         right: 20px;
     }
     .cabecalho h2 {
-        font-size: 40px;
+        font-family: 'Oi', cursive;
+        font-size: 20px;
     }
     .centro {
         width: 1009px;

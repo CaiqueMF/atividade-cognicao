@@ -3,7 +3,7 @@
 </script>
 <img src={fundo} alt="fundo">
 <div class="conteudo">
-    <p>Depois de sua empreitada com Aafolou, Ovaldo seguiu sua jornada em busca de conhecimento e se encontrou com o fazendeiro: Rojerio</p>
+    <p>Depois de sua empreitada com Aafolou, Ovaldo seguiu sua jornada em busca de conhecimento e se encontrou com o fazendeiro: Rojério</p>
     <button>
         <a href="/fazendeiro">CONTINUAR</a>
     </button>

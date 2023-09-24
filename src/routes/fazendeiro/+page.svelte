@@ -35,7 +35,7 @@
             resposta = null
             temp = ''
         }else if(atual == 3 && resposta!=null){
-            if(levenshteinDistance(resposta.toLowerCase(),"dificil")<=2){
+            if(levenshteinDistance(resposta.toLowerCase(),"difícil")<=2 || levenshteinDistance(resposta.toLowerCase(),"dificil")<=2){
                 passado=atual
                 atual = -1
             }else{
@@ -45,7 +45,7 @@
             resposta = null
             temp = ''
         }else if(atual == 4 && resposta!=null){
-            if(levenshteinDistance(resposta.toLowerCase(),"habito")<=2){
+            if (levenshteinDistance(resposta.toLowerCase(),"hábito") <= 2 || levenshteinDistance(resposta.toLowerCase(),"habito") <= 2 || levenshteinDistance(resposta.toLowerCase(),"comportamento") <= 2){
                 passado=atual
                 atual = -1
             }else{
@@ -141,13 +141,13 @@
             <p>Acho que não é bem isso...</p>
         {:else if atual == -1}
             <h2 class="falando">Ovaldo</h2>
-            <p>era isso mesmo!</p>
+            <p>Era isso mesmo!</p>
         {:else if atual == 0}
             <h2 class="falando">Ovaldo</h2>
             <p>Por que você joga no bicho toda semana?</p>
         {:else if atual == 1}
             <h2 class="falando">Rojério</h2>
-            <p>Por que eu ja ganhei <span class="verde">algumas vezes</span>... E um reforco <span><form on:submit|preventDefault={() => {resposta = temp
+            <p>Por que eu já ganhei <span class="verde">algumas vezes</span>... É um reforco <span><form on:submit|preventDefault={() => {resposta = temp
                 trocar()
                 }}>
                 <label>
@@ -157,7 +157,7 @@
             
         {:else if atual == 2}
             <h2 class="falando">Ovaldo</h2>
-            <p>Mas o cachorro recebe carinho toda vez que pega o graveto, por que voce joga se só <span class="verde">as vezes</span> ganha?</p>
+            <p>Mas o cachorro recebe carinho toda vez que pega o graveto, por que você joga se só <span class="verde">as vezes</span> ganha?</p>
         {:else if atual == 3}
             <h2 class="falando">Rojério</h2>
             <p>Porque como eu venço <span class="verde">algumas vezes</span> é um comportamento mais <span>
@@ -182,7 +182,7 @@
             </span> que demora mais a ser esquecido?</p>
         {:else if atual == 5}
             <h2 class="falando">Rojério</h2>
-            <p>Isso mesmo Ovaldo, mas sempre que Aafolou morde meu sapato... eu rebolo ele no mato</p>
+            <p>Isso mesmo Ovaldo, mas <span class="verde">sempre</span> que Aafolou morde meu sapato... eu rebolo ele no mato!</p>
         {:else if atual == 6}
             <h2 class="falando">Ovaldo</h2>
             <p>Então o fazendeiro pune <span>

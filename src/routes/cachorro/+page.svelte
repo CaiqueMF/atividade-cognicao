@@ -29,8 +29,8 @@ function trocar(){
         }
         atual++
         if(atual == 2){
-        if(levenshteinDistance(resposta.toLowerCase(),"continuo")<=2){
-            texto = "era isso mesmo!"
+        if(levenshteinDistance(resposta.toLowerCase(),"contínuo")<=2 || levenshteinDistance(resposta.toLowerCase(),"continuo")<=2){
+            texto = "Era isso mesmo!"
         }else{
             texto = "Acho que não é bem isso..."
         }

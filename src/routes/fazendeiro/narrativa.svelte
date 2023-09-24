@@ -3,7 +3,7 @@
 </script>
 <img src={fundo} alt="fundo">
 <div class="conteudo">
-    <p>Rojério assustou Ovaldo e ele foge em direção á cidade grande!</p>
+    <p>Rojério assustou Ovaldo que foge em direção à cidade grande!</p>
     <button>
         <a href="/fim">CONTINUAR</a>
     </button>

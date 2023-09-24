@@ -47,8 +47,10 @@
         font-size: 20px;
     }
     .centro {
-        background: url(../assets/celeiro.png);
+        background: url(../assets/fazenda.jpg);
         height: 782px;
+        width: 1224;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;

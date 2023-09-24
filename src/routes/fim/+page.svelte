@@ -47,7 +47,8 @@
         font-size: 20px;
     }
     .centro {
-        background: url(cidade.jpg);
+        background: url(../../assets/cidade.jpg);
+        background-size: cover;
         background-color: #F5F5F5;
         height: 782px;
         display: flex;

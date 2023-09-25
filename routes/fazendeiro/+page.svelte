@@ -147,7 +147,7 @@
             <p>Por que você joga no bicho toda semana?</p>
         {:else if atual == 1}
             <h2 class="falando">Rojério</h2>
-            <p>Por que eu já ganhei <span class="verde">algumas vezes</span>... É um reforco <span><form on:submit|preventDefault={() => {resposta = temp
+            <p>Por que eu já ganhei <span class="verde">algumas vezes</span>... É um reforço <span><form on:submit|preventDefault={() => {resposta = temp
                 trocar()
                 }}>
                 <label>

@@ -32,7 +32,7 @@ function trocar(){
         if(levenshteinDistance(resposta.toLowerCase(),"contínuo")<=2 || levenshteinDistance(resposta.toLowerCase(),"continuo")<=2){
             texto = "Era isso mesmo!"
         }else{
-            texto = "Acho que não é bem isso..."
+            texto = "Acho que não é bem isso... O correto seria reforço contínuo, pois ele <span class = "verde">sempre</span> é recompensado!
         }
     }
     }else if(atual==2){

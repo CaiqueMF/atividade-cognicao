@@ -1,5 +1,6 @@
 <script>
     let atual = 0
+    let erroAtual = 0
     let resposta=null
     let temp =''
     let passado = 0
@@ -31,6 +32,7 @@
             }else{
                 passado=atual
                 atual = -2
+                erroAtual = 1
             }
             resposta = null
             temp = ''
@@ -41,6 +43,7 @@
             }else{
                 passado=atual
                 atual = -2
+                erroAtual = 2
             }
             resposta = null
             temp = ''
@@ -51,6 +54,7 @@
             }else{
                 passado=atual
                 atual = -2
+                erroAtual = 3
             }
             resposta = null
             temp = ''
@@ -137,8 +141,15 @@
     
     <div class="dialogo">
         {#if atual == -2}
-            <h2 class="falando">Ovaldo</h2>
-            <p>Acho que não é bem isso...</p>
+            {#if erroAtual == 1 }
+                <h2 class="falando">Ovaldo</h2>
+                <p>Acho que não é bem isso...</p>
+            {:else if erroAtual == 2}
+                <h2 class="falando">Ovaldo</h2>
+                <p>Acho que não é bem isso...</p>
+            {:else if erroAtual == 3}
+                <h2 class="falando">Ovaldo</h2>
+                <p>Acho que não é bem isso...</p>
         {:else if atual == -1}
             <h2 class="falando">Ovaldo</h2>
             <p>Era isso mesmo!</p>

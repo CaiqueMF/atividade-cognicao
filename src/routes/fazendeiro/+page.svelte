@@ -20,7 +20,9 @@
     offsetFazendeiro = '0px';
   }
   function trocar() {
-    if (atual == -2 || atual == -1) {
+    if (atual == -2) {
+      atual = passado;
+    } else if (atual == -1) {
       atual = passado + 1;
     } else if (atual == 0 || atual == 2 || atual == 5) {
       atual++;
